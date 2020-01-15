@@ -3,6 +3,7 @@ var count = 0;
 
 function cc(card) {
   // Only change code below this line
+  
 switch(card){
   case 2: 
   case 3:
@@ -10,11 +11,6 @@ switch(card){
   case 5:
   case 6:
     count++;
-    break;
-  case 7:
-  case 8:
-  case 9:
-    count;
     break;
   case 10:
   case "J":
@@ -24,19 +20,17 @@ switch(card){
     count--;
     break;
 }
-var move = " Hold";
-if(count >= 0){
-  return move = " Bet";
-}
+  if(count > 0){
+        return count + " Bet";
+    } else {
+      return count + " Hold"
+    }
 
 
-console.log(count)
-console.log(move)
-return count + move
+
+return count
   // Only change code above this line
 }
 // Add/remove calls to test your function.
 // Note: Only the last will display
-cc(2); cc(3); cc(7); cc('K'); 
-console.log(cc(2), cc(3), cc(7), cc('K'), cc('A'));
-
+cc(2); cc(3); cc(7); cc('K'); cc('A');
