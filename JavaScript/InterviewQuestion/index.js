@@ -21,4 +21,5 @@ let duplicates = arr.reduce((a , val, i , arr) => {
     a.push(val)}
     return a.sort();
 }, [])
+
 console.log(duplicates)
