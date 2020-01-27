@@ -1,2 +1,2 @@
 # FreeCodeCampWork
-Some of the small project I work on from FreeCodeCamp
+Some of the small project and algorithms I work on from FreeCodeCamp
